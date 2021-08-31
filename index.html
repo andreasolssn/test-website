@@ -5,21 +5,56 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My most definately and absolutely first webpage</title>
+    <link rel="stylesheet" href="styles/index.css">
 </head>
 <body>
-    <h2>Various recipes</h2>
-  
-    <div>
-        <h3>Pancakes:</h3>
-    <p>●3 DL of flour <br>●3 Eggs <br>●5 DL of milk <details> <summary>How to</summary> Mix firmly, toss into the pan,
-         let it sit until golden brown. Enjoy. </details></p>
+    <header>
+         <h2>Various recipes</h2>
+         <ul class="first-ulist">
+<li><a href="#first-section"> Pancakes </a></li>
+<li><a href="#second-section"> Fruit Smoothie </a></li>
+         </ul>
+         </header>
+
+    <main> 
+        <section id="first-section"> 
+<div>
+    
+        <h3 style="color: brown;">Pancakes:</h3>
+<ul class="second-ulist">
+    <li>3 DL of flour</li>
+    <li><a href="https://en.wikipedia.org/wiki/Egg">3 Eggs</a></li>
+    <li>5 DL of milk</li>
+    <li>Pinch of salt</li>
+    <li>1 DL of sugar</li>
+</ul>
+ <p> <details class="first-details">
+      <summary>How to</summary>
+       Mix firmly, toss into the pan, let it sit until golden brown. Enjoy. 
+    </details></p>
+    <img src="images/pancakes.jpg" alt="Pancakes" title="Image of Pancakes">
         </div>
-        
+         </section>
+
+
+         <section id="second-section">
 <div>
     <h3>Fruit Smoothie</h3>
-    <p>● 1 Apple<br>● 1 Banana<br>● 2 DL yoghurt<br>● Handfull of blueberries<br>● 3 DL juice of choice <details> <summary>How to</summary> Toss into blender until smooth texture. Enjoy.</details></p>
+    <ul class="third-ulist">
+        <li>1 Apple</li>
+        <li>1 Banana</li>
+        <li>2 DL yoghurt</li>
+        <li>Handfull of blueberries</li>
+        <li>3 DL juice of choice</li>
+    </ul>
+    <p> <details>
+         <summary>How to</summary>
+          Toss into blender until smooth texture. Enjoy.
+        </details></p>
+        <img src="images/Smoothie.jpg" alt="Smoothie" title="Image of Smoothie">
 </div>
-
+</section>
+</main>
 <!-- Fill out with more recipes -->
 
 </body>

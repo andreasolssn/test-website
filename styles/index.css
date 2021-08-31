@@ -1,0 +1,52 @@
+h2 {
+    font-size: 40px;
+    font-style: oblique;
+background-color: rgb(34 148 178);
+}
+
+
+h3 {
+    color: blue;
+    color: chartreuse;
+    font-size: 30px;
+}
+
+/*last color declared will be the prioritised or "active" one. Styles declared in index.html is also
+prioritised before index.css styles*/
+
+.first-ulist a, .first-ulist {
+    color: gold; 
+}
+
+.second-ulist a {
+    color: gold;
+}
+
+#second-section {
+    color: rgb(255, 0, 149);
+}
+
+.second-ulist, .first-details {
+    color: darksalmon;
+
+}
+
+body {
+    background-image: url(../images/Sugar.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+background-attachment: fixed;
+height: 200vh;
+/*background: url(../images/Sugar.jpg), no-repeat, cover, etc (instead of writing each line one by one*/
+}
+
+img {
+    border-width: 5px; 
+    border-style: solid;
+    border-color: rgba(0, 0, 255, 0.301);
+    border: 5px solid rgba(0, 0, 255, 0.993);
+    border-top: rgb(123, 95, 160);
+    border-radius: 50%;
+    box-shadow: 10px 10px 20px burlywood;
+}  
